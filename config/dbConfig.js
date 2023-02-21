@@ -4,7 +4,7 @@ import userModel from '../models/users.js'
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.USER, process.env.PASSWORD, {
     host: process.env.HOST,
     dialect: "mysql",
-    // port: process.env.DB_PORT,
+    port: process.env.DB_PORT,
     pool: {
         max: 5,
         min: 0,
