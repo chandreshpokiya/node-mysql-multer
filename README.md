@@ -88,6 +88,7 @@ To run this project, you will need to add the following environment variables to
 `PASSWORD`
 `DB_PORT`
 `DB_NAME`
+`JWT_SECRET`
 
 
 ## Run Locally
